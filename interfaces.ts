@@ -14,17 +14,17 @@ interface IProject{
     getAllTaskByDeveloper(id:number):ITask[];
 }
 
-interface IUser{
-    id:number;
-    name:string;
-}
-
 interface ITask {
     id:number;
     durationInMin:number;
     completed:boolean;
     developer:IUser;
     getInfo():string;
+}
+
+interface IUser{
+    id:number;
+    name:string;
 }
 
 export type {

@@ -135,7 +135,6 @@ console.log("Total time - "+JSON.stringify(project.getTotalTime()));
 console.log("*************************************************************************************")
 app.setName("Cool app");
 console.log("App - "+JSON.stringify(app))
-console.log("*************************************************************************************")
 
 
 
